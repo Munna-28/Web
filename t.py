@@ -6,7 +6,7 @@ app = Flask(__name__, static_url_path='/static')
 
 @app.route("/")
 def home():
-    return render_template("index.html", content="Testing")
+    return render_template("N.html", content="Testing")
     
 @app.route("/<name>")
 def user(name):
