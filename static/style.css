@@ -1,3 +1,5 @@
+/* Add your existing CSS styles here */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #030c41;
@@ -9,8 +11,6 @@ body {
     justify-content: center;
     height: 100vh;
 }
-
-
 
 h1 {
     color: hsl(178, 95%, 49%);
@@ -67,6 +67,7 @@ button:hover {
 #shuffleBtn:hover {
     background-color: #d32f2f;
 }
+
 #currentSong {
     margin-top: 10px;
     font-size: 18px;
@@ -74,3 +75,10 @@ button:hover {
     color: #ffae00;
 }
 
+/* Additional styles for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    #audioPlayer {
+        width: 100%;
+        max-width: none;
+    }
+}
